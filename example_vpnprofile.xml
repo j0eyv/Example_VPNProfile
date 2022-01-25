@@ -1,0 +1,58 @@
+<VPNProfile>
+   <!--<EdpModeId>corp.contoso.com</EdpModeId>-->
+   <RememberCredentials>true</RememberCredentials>
+   <AlwaysOn>true</AlwaysOn>
+   <TrustedNetworkDetection>DNSSUFFIX.LOCAL</TrustedNetworkDetection>
+   <DeviceTunnel>false</DeviceTunnel>
+   <RegisterDNS>false</RegisterDNS>
+   <PluginProfile>
+     <ServerUrlList>azuregateway-aav3e1269-a821-6fvc-bja7-487633150ce0-a691asf92t55.vpn.azure.com</ServerUrlList> 
+     <CustomConfiguration>
+<AzVpnProfile xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/">
+  <any xmlns:d2p1="http://schemas.datacontract.org/2004/07/System.Xml"
+    i:nil="true" />
+  <clientauth>
+    <aad>
+      <audience>41b23e61-6c1e-4545-b367-cd054e0ed4b4</audience>
+      <cachesigninuser>true</cachesigninuser>
+      <issuer>https://sts.windows.net/58e72138-4220-TENANTID/</issuer>
+      <tenant>https://login.microsoftonline.com/58e72138-4220-TENANTID/</tenant>
+    </aad>
+    <cert
+      i:nil="true" />
+    <type>aad</type>
+    <usernamepass
+      i:nil="true" />
+  </clientauth>
+<clientconfig>	
+	<excluderoutes>
+    </excluderoutes>  
+  </clientconfig>
+  <name>AO VPN PROFILE/name>
+  <protocolconfig>
+    <sslprotocolConfig>
+      <transportprotocol>tcp</transportprotocol>
+    </sslprotocolConfig>
+  </protocolconfig>
+  <serverlist>
+    <ServerEntry>
+      <displayname
+        i:nil="true" />
+      <fqdn>azuregateway-n133e169-b578-38ac-125f-487633150ce0-a61682ec7564.vpn.azure.com</fqdn>
+    </ServerEntry>
+  </serverlist>
+  <servervalidation>
+    <cert>
+      <hash>A8985D3A65E5E5C4B2D7D66D40C6DD2FB19C5436</hash>
+      <issuer
+        i:nil="true" />
+    </cert>
+    <serversecret>7e62iqf8h238th090b19326ae45a7e63cdaec2afgi218fh83thd3677e506c6e7d345fb8e02edf931f28712354ebefeadc45d14d2dc64infh02893yt8fg9je11f06f7432763ff88f2bf2652edc385256de6a65f48fe8asfh8932trmnas9ogh98wh125188wstfg8978d439575954f6001f0ec9ad9c91c5d604542699b1464a6028625ecbcd3c40e7bd487d00ec4bbd69a915478ea1d21143389d31c1b9d963a74c5637d84244ec8c418294af86c533b4c41805d46024fa113ea84468ef7b729e37b6401inasf823c1702f325846fd</serversecret>
+    <type>cert</type>
+  </servervalidation>
+  <version>1</version>
+</AzVpnProfile>
+     </CustomConfiguration>
+     <PluginPackageFamilyName>Microsoft.AzureVpn_8wekyb3d8bbwe</PluginPackageFamilyName>
+   </PluginProfile>
+ </VPNProfile>
