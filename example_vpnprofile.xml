@@ -28,7 +28,7 @@
 	<excluderoutes>
     </excluderoutes>  
   </clientconfig>
-  <name>AO VPN PROFILE</name>
+  <name>VNET1</name>
   <protocolconfig>
     <sslprotocolConfig>
       <transportprotocol>tcp</transportprotocol>
